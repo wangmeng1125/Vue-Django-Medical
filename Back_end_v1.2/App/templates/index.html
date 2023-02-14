@@ -1,0 +1,18 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    {# 如何引入CSS文件 #}
+    <link rel="stylesheet" href="{% static ''%}">
+</head>
+<body>
+    <h1>欢迎使用医疗大数据系统</h1>
+    <img src="../static/img/dog.jpg" alt="">
+
+    {# 在项目中引入js文件 #}
+    <script src="{% static '' %}"></script>
+</body>
+</html>
